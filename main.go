@@ -22,5 +22,5 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func bye(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Cheers mate")
+	fmt.Fprintln(w, "cheers mate")
 }
