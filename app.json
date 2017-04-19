@@ -1,6 +1,9 @@
 {
-  "name":"heroku-test",
-  "scripts":{},
-  "env":{},
-  "addons":[]
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "go test ./..."
+      }
+    }
+  }
 }
